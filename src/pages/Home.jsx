@@ -10,7 +10,7 @@ const Home = () => {
   const inputHandler = (event)=>{
     setInput(event.target.value);
     if(event.target.value ===""){
-      setDisplayCoin(allCoin)
+      setDisplayCoin(allCoin);
     }
   }
   const searchHandler = async (event)=>{
